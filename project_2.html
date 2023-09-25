@@ -3,10 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Html Forms</title>           
+    <title>Html Forms</title>
+    <link rel="stylesheet" href="project_2.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">           
         
     
 <body>
+    <div id="main">
     <h1>Investment In Innovation</h1>
+
+    <form action="www.jw.org" method="post">
+        <div class="first">
+        <label for="firstname" name="firstname">First Name:</label> <br>
+        <input type="text" name="firstname" id="firstname" required> <br>
+        </div> 
+        <div class="first">
+        <label for="secondname" name="secondname">Second Name:</label> <br>
+        <input type="text" name="secondname" id="secondname" required> <br> 
+        </div>
+        <div class="first">
+        <label for="age" name="age">Age:</label> <br>
+        <input type="date" name="age" id="age"required> <br>
+        </div> 
+        <div class="first">
+        <label for="coding" name="coding">Coding Proficiency:</label> <br>
+        <input type="range" name="coding" id="coding" required> <br>
+        </div>
+        <button type="submit" id="submit">Submit</button>
+    </form>
+    </div>
+
 </body>
 </html>
